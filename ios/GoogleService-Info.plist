@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>671670008556-uuc5chesct806fmq28jp72h39ces2cts.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.671670008556-uuc5chesct806fmq28jp72h39ces2cts</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>671670008556-d4s7rj2ldcres01vip0rcg4gqnq00v1f.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAJNYFEJUJP94jPi12Ih4nKx6pxGuUlJdU</string>
+	<key>GCM_SENDER_ID</key>
+	<string>671670008556</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.piano.apple</string>
+	<key>PROJECT_ID</key>
+	<string>pianohack</string>
+	<key>STORAGE_BUCKET</key>
+	<string>pianohack.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:671670008556:ios:9632af0f404e0a853fc3c9</string>
+</dict>
+</plist>

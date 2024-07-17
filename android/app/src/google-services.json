@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "671670008556",
+    "project_id": "pianohack",
+    "storage_bucket": "pianohack.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:671670008556:android:9b7d88f9a84df3663fc3c9",
+        "android_client_info": {
+          "package_name": "com.pianohack.android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "671670008556-d4s7rj2ldcres01vip0rcg4gqnq00v1f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pianohack.android",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "671670008556-ka1rfsvves9n45e11or1r51khbtsv8p7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgFuQPlZENgELJXVuMyYbz0GID61D_e0M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "671670008556-ka1rfsvves9n45e11or1r51khbtsv8p7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

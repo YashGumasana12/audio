@@ -1,0 +1,166 @@
+{
+    "training": {
+        "tabs": [
+            {
+                "title": "All",
+                "isSelected": false
+            },
+            {
+                "title": "Major only",
+                "isSelected": false
+            },
+            {
+                "title": "Minor only",
+                "isSelected": false
+            }
+        ],
+        "majorOnly": [
+            {
+                "title": "C",
+                "isSelected": false,
+                "type": 0,
+                "index": 0
+            },
+            {
+                "title": "Db",
+                "isSelected": false,
+                "type": 0,
+                "index": 1
+            },
+            {
+                "title": "D",
+                "isSelected": false,
+                "type": 0,
+                "index": 2
+            },
+            {
+                "title": "Eb",
+                "isSelected": false,
+                "type": 0,
+                "index": 3
+            },
+            {
+                "title": "E",
+                "isSelected": false,
+                "type": 0,
+                "index": 4
+            },
+            {
+                "title": "F",
+                "isSelected": false,
+                "type": 0,
+                "index": 5
+            },
+            {
+                "title": "Gb",
+                "isSelected": false,
+                "type": 0,
+                "index": 6
+            },
+            {
+                "title": "G",
+                "isSelected": false,
+                "type": 0,
+                "index": 7
+            },
+            {
+                "title": "Ab",
+                "isSelected": false,
+                "type": 0,
+                "index": 8
+            },
+            {
+                "title": "A",
+                "isSelected": false,
+                "type": 0,
+                "index": 9
+            },
+            {
+                "title": "Bb",
+                "isSelected": false,
+                "type": 0,
+                "index": 10
+            },
+            {
+                "title": "B",
+                "isSelected": false,
+                "type": 0,
+                "index": 11
+            }
+        ],
+        "minorOnly": [
+            {
+                "title": "Cm",
+                "isSelected": false,
+                "type": 1,
+                "index": 0
+            },
+            {
+                "title": "Dbm",
+                "isSelected": false,
+                "type": 1,
+                "index": 1
+            },
+            {
+                "title": "Dm",
+                "isSelected": false,
+                "type": 1,
+                "index": 2
+            },
+            {
+                "title": "Ebm",
+                "isSelected": false,
+                "type": 1,
+                "index": 3
+            },
+            {
+                "title": "Em",
+                "isSelected": false,
+                "type": 1,
+                "index": 4
+            },
+            {
+                "title": "Fm",
+                "isSelected": false,
+                "type": 1,
+                "index": 5
+            },
+            {
+                "title": "Gbm",
+                "isSelected": false,
+                "type": 1,
+                "index": 6
+            },
+            {
+                "title": "Gm",
+                "isSelected": false,
+                "type": 1,
+                "index": 7
+            },
+            {
+                "title": "Abm",
+                "isSelected": false,
+                "type": 1,
+                "index": 8
+            },
+            {
+                "title": "Am",
+                "isSelected": false,
+                "type": 1,
+                "index": 9
+            },
+            {
+                "title": "Bbm",
+                "isSelected": false,
+                "type": 1,
+                "index": 10
+            },
+            {
+                "title": "Bm",
+                "isSelected": false,
+                "type": 1,
+                "index": 11
+            }
+        ]
+    }
+}

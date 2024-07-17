@@ -1,0 +1,113 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "assets/fonts/Futura Bk BT Book Italic.ttf",
+      "sha1": "ddc4af1d87f155355db3a454ae868fce6c872a4a"
+    },
+    {
+      "path": "assets/fonts/Futura Bk BT Book.ttf",
+      "sha1": "fcd2829ed9c892c6e7bc146bd4cb297ca4c1fed9"
+    },
+    {
+      "path": "assets/fonts/Futura Bold font.ttf",
+      "sha1": "68fab471b5d366f87ade01b7f6c810d3a078a298"
+    },
+    {
+      "path": "assets/fonts/Futura Book font.ttf",
+      "sha1": "1bcd70a20cff464c22ac4c9519fb9f72dd9be22a"
+    },
+    {
+      "path": "assets/fonts/Futura Heavy Italic font.ttf",
+      "sha1": "fd576f5456b547e0cd090cf9487ba25802093483"
+    },
+    {
+      "path": "assets/fonts/Futura Heavy font.ttf",
+      "sha1": "35bbb08ac0c52b83898323a948a8e71f88f2469c"
+    },
+    {
+      "path": "assets/fonts/Futura Light Italic font.ttf",
+      "sha1": "cfe0613225fe55bff41e18d4cfeacd3118858388"
+    },
+    {
+      "path": "assets/fonts/Futura Light font.ttf",
+      "sha1": "58fa3b9c7a828c600e15b1a86dd70f6ac8c76bfe"
+    },
+    {
+      "path": "assets/fonts/Futura Md BT Bold Italic.ttf",
+      "sha1": "eb4f8dda1f7e7e3934bad9785941402f84326d69"
+    },
+    {
+      "path": "assets/fonts/Futura Md BT Bold.ttf",
+      "sha1": "619c72630770fa954425037ac9510dc794a28839"
+    },
+    {
+      "path": "assets/fonts/Futura Md BT Medium Italic.ttf",
+      "sha1": "78b03b95add92e0ce66b54521a39cd6b1f778294"
+    },
+    {
+      "path": "assets/fonts/Futura Md BT Medium.ttf",
+      "sha1": "14186abdbd44e88ff857a30051c6fbee45bb8be6"
+    },
+    {
+      "path": "assets/fonts/Futura-Bk-BT-Book.ttf",
+      "sha1": "fcd2829ed9c892c6e7bc146bd4cb297ca4c1fed9"
+    },
+    {
+      "path": "assets/fonts/Futura-Bold-03.ttf",
+      "sha1": "d6a7aa636c8d4e1b08fd441bb2ff051b0d1e654e"
+    },
+    {
+      "path": "assets/fonts/Futura-CondensedExtraBold-05.ttf",
+      "sha1": "ec8fba3359cf369a08229ae1644bb3a01c8ad897"
+    },
+    {
+      "path": "assets/fonts/Futura-CondensedLight.otf",
+      "sha1": "bfbb7d4d56453355314561345c0634b23e278b6a"
+    },
+    {
+      "path": "assets/fonts/Futura-Medium-01.ttf",
+      "sha1": "738dbf0b7254a3fbf357ba074860479a78a5069a"
+    },
+    {
+      "path": "assets/fonts/Futura-Medium.ttf",
+      "sha1": "7c96083368e3fe7ff41134b1fff2013c1802fcbe"
+    },
+    {
+      "path": "assets/fonts/Futura-MediumItalic-02.ttf",
+      "sha1": "b48950ac3d94faacc8857d3932a9d33e0be3230b"
+    },
+    {
+      "path": "assets/fonts/FuturaBQ-Bold.ttf",
+      "sha1": "8af5d3bc9443d6437fcfd84ec4e5dbc7b9e0cc52"
+    },
+    {
+      "path": "assets/fonts/FuturaBookBT.ttf",
+      "sha1": "f6eb9437c41e66793cb80169d72fc26bc5c60461"
+    },
+    {
+      "path": "assets/fonts/QanelasSoftDEMO-ExtraBold.ttf",
+      "sha1": "431f7f9cf2ac5ef2c145de47e8b7e7f1ed5d02c9"
+    },
+    {
+      "path": "assets/fonts/SF-Pro-Rounded-Bold.ttf",
+      "sha1": "86e1c79d7484a965cf5b42fc2ebc3f27d2a56472"
+    },
+    {
+      "path": "assets/fonts/SF-Pro-Rounded-Medium.ttf",
+      "sha1": "76afe0c278fe89adeaf206721a66f9eaaa34a3eb"
+    },
+    {
+      "path": "assets/fonts/futur.ttf",
+      "sha1": "77aab0b78e5f9b3d89df070cfb763fb17606fa7e"
+    },
+    {
+      "path": "assets/fonts/futura light bt.ttf",
+      "sha1": "922d91d7c4f1ba42241a362bdafb59fe44baa85e"
+    },
+    {
+      "path": "assets/fonts/futura medium condensed bt.ttf",
+      "sha1": "d4413ab5a6cb6d8f2c98242845e54f1dce6ad4cb"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+export const APP_LOADER = "APP_LOADER";
+export const NETWORK_STATUS = "NETWORK_STATUS";
+export const OFFLINE_TRACKS = "OFFLINE_TRACKS";
+export const USER_DETAILS = "USER_DETAILS";
+export const GET_TRACK_LIST = "GET_TRACK_LIST";
+export const GET_PLAY_LIST = "GET_PLAY_LIST";
+export const TAPPED_SONG = "TAPPED_SONG";
+export const SELECTED_PLAYLIST = "SELECTED_PLAYLIST";
+export const ADD_TO_FAV = "ADD_TO_FAV";
+export const GET_DAILY_GOAL = "GET_DAILY_GOAL";

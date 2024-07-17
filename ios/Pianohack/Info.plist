@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleDisplayName</key>
+	<string>Pianohack</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>$(MARKETING_VERSION)</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>$(CURRENT_PROJECT_VERSION)</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
+	<key>NSExceptionDomains</key>
+	<dict>
+		<key>myhttpdomain.com</key>
+		<dict>
+			<key>NSIncludesSubdomains</key>
+			<true/>
+			<key>NSTemporaryExceptionAllowsInsecureHTTPLoads</key>
+			<true/>
+			<key>NSTemporaryExceptionMinimumTLSVersion</key>
+			<string>TLSv1.1</string>
+		</dict>
+	</dict>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string></string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Futura-CondensedLight.otf</string>
+		<string>Futura Bk BT Book Italic.ttf</string>
+		<string>Futura Bk BT Book.ttf</string>
+		<string>Futura Bold font.ttf</string>
+		<string>Futura Book font.ttf</string>
+		<string>Futura Heavy Italic font.ttf</string>
+		<string>Futura Heavy font.ttf</string>
+		<string>Futura Light Italic font.ttf</string>
+		<string>Futura Light font.ttf</string>
+		<string>Futura Md BT Bold Italic.ttf</string>
+		<string>Futura Md BT Bold.ttf</string>
+		<string>Futura Md BT Medium Italic.ttf</string>
+		<string>Futura Md BT Medium.ttf</string>
+		<string>Futura-Bk-BT-Book.ttf</string>
+		<string>Futura-Bold-03.ttf</string>
+		<string>Futura-CondensedExtraBold-05.ttf</string>
+		<string>Futura-Medium-01.ttf</string>
+		<string>Futura-Medium.ttf</string>
+		<string>Futura-MediumItalic-02.ttf</string>
+		<string>FuturaBQ-Bold.ttf</string>
+		<string>FuturaBookBT.ttf</string>
+		<string>QanelasSoftDEMO-ExtraBold.ttf</string>
+		<string>SF-Pro-Rounded-Bold.ttf</string>
+		<string>SF-Pro-Rounded-Medium.ttf</string>
+		<string>futur.ttf</string>
+		<string>futura light bt.ttf</string>
+		<string>futura medium condensed bt.ttf</string>
+	</array>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>fetch</string>
+		<string>remote-notification</string>
+	</array>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>arm64</string>
+	</array>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<false/>
+</dict>
+</plist>
