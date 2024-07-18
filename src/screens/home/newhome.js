@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from 'react';
+import React, { useEffect, useState } from 'react';
 import {
   View,
   Text,
@@ -15,19 +15,19 @@ import {
   Modal,
   ActivityIndicator,
 } from 'react-native';
-import {colors} from '../../res/colors';
-import {images} from '../../res/images';
-import {fonts} from '../../res/fonts';
-import {POST} from '../../apiHelper/apiService';
-import {base_url, quizAndLevels, common_url} from '../../apiHelper/APIs.json';
+import { colors } from '../../res/colors';
+import { images } from '../../res/images';
+import { fonts } from '../../res/fonts';
+import { POST } from '../../apiHelper/apiService';
+import { base_url, quizAndLevels, common_url } from '../../apiHelper/APIs.json';
 import Toast from 'react-native-simple-toast';
 import RNFetchBlob from 'rn-fetch-blob';
 import SoundPlayer from 'react-native-sound-player';
 import AsyncStorage from '@react-native-community/async-storage';
-import {chapterData, chapterNumber, levelNumber} from '../../utils/constants';
-import {useFocusEffect} from '@react-navigation/native';
+import { chapterData, chapterNumber, levelNumber } from '../../utils/constants';
+import { useFocusEffect } from '@react-navigation/native';
 const dWidth = Dimensions.get('screen').width;
-export default newhome = ({navigation}) => {
+export default newhome = ({ navigation }) => {
   const task = 8;
   const [completedTask, setCompletedTask] = useState(1);
   const [levels, setLevels] = useState([]);
@@ -187,18 +187,21 @@ export default newhome = ({navigation}) => {
   };
 
   const startDownload = (url, name) => {
+    console.log('RNFetchBlob.fs.dirs.MainBundleDir', RNFetchBlob.fs.dirs.MainBundleDir)
+    console.log('RNFS.DocumentDirectoryPath', RNFS.DocumentDirectoryPath)
     // eslint-disable-next-line no-new
     return new Promise((resolve, reject) => {
       RNFetchBlob.config({
         fileCache: true,
         appendExt: 'mp3',
-        addAndroidDownloads: {
-          useDownloadManager: true,
-          notification: true,
-          title: name,
-          path: 'file:/' + RNFetchBlob.fs.dirs.MainBundleDir + `/${name}.mp3`, // Android platform
-          description: 'Downloading the file',
-        },
+        // addAndroidDownloads: {
+        //   useDownloadManager: true,
+        //   notification: true,
+        //   title: name,
+        //   path: `${RNFS.DocumentDirectoryPath}/${name}.mp3`, // Android platform
+        //   // path: `${RNFS.DocumentDirectoryPath}/${name}.aac`, // Android platform
+        //   description: 'Downloading the file',
+        // },
       })
         .fetch('GET', url)
         .then(res => {
@@ -214,7 +217,7 @@ export default newhome = ({navigation}) => {
   };
   const getAllLevels = async hChapter => {
     setIsLoading(true);
-    await POST(quizAndLevels, {data: 'none'}, async function (response) {
+    await POST(quizAndLevels, { data: 'none' }, async function (response) {
       if (!response?.status) {
         _errorMessage(response.responseData.message);
       } else {
@@ -226,13 +229,13 @@ export default newhome = ({navigation}) => {
   };
 
   return (
-    <View style={{flex: 1, backgroundColor: colors.creamBase1}}>
+    <View style={{ flex: 1, backgroundColor: colors.creamBase1 }}>
       <StatusBar barStyle={'dark-content'} />
       <SafeAreaView />
-      <ScrollView style={{paddingHorizontal: 20}}>
+      <ScrollView style={{ paddingHorizontal: 20 }}>
         <Image
           source={images.earIcon}
-          style={{width: 40, height: 40, alignSelf: 'center', marginTop: 20}}
+          style={{ width: 40, height: 40, alignSelf: 'center', marginTop: 20 }}
         />
         <View style={styles.taskcontainer}>
           {[1, 2, 3, 4, 5, 6, 7, 8].map(item => (
@@ -263,8 +266,8 @@ export default newhome = ({navigation}) => {
                         item === completedTask
                           ? colors.white
                           : item < completedTask
-                          ? colors.creamBase5
-                          : colors.black,
+                            ? colors.creamBase5
+                            : colors.black,
                     },
                   ]}>
                   {item}
@@ -287,7 +290,7 @@ export default newhome = ({navigation}) => {
         </View>
         <Pressable
           onPress={() =>
-            navigation.navigate('quickTheory', {data: levels[completedTask]})
+            navigation.navigate('quickTheory', { data: levels[completedTask] })
           }
           style={styles.quickTheoryContainer}>
           <View style={styles.quickInnerContainer}>
@@ -306,10 +309,10 @@ export default newhome = ({navigation}) => {
             index === 0
               ? 'levelOne'
               : index === 1
-              ? 'levelTwo'
-              : index === 2
-              ? 'levelThird'
-              : 'levelFour';
+                ? 'levelTwo'
+                : index === 2
+                  ? 'levelThird'
+                  : 'levelFour';
           // hData[chapter].levels[0].navigation = 'levelOne';
           // hData[chapter].levels[1].navigation = 'levelTwo';
           // hData[chapter].levels[2].navigation = 'levelThird';
