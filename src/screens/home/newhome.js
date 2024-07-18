@@ -187,8 +187,8 @@ export default newhome = ({ navigation }) => {
   };
 
   const startDownload = (url, name) => {
-    console.log('RNFetchBlob.fs.dirs.MainBundleDir', RNFetchBlob.fs.dirs.MainBundleDir)
-    console.log('RNFS.DocumentDirectoryPath', RNFS.DocumentDirectoryPath)
+    // console.log('RNFetchBlob.fs.dirs.MainBundleDir', RNFetchBlob.fs.dirs.MainBundleDir)
+    // console.log('RNFS.DocumentDirectoryPath', RNFS.DocumentDirectoryPath)
     // eslint-disable-next-line no-new
     return new Promise((resolve, reject) => {
       RNFetchBlob.config({
